@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 1140px;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* Products  */
+
+.page-title {
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 72.5px;
+}
+
+.title-wrapper {
+    padding-top: 15px;
+    padding-bottom: 44px;
+}
+
+.page-title-inner {
+    font-family: "Libre Baskerville", serif; 
+    font-size: 52px;
+    line-height: 72.5px;
+}
+
+.product-wrapper {
+    padding-bottom: 42px;
+}
+
+.products {
+    margin-bottom: 64px;
+}
+
+.product {
+    max-width: 520px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.product:last-child {
+    margin-bottom: 0;
+}
+
+.product-image {
+    width: 100%;
+    margin-bottom: 21px;
+    height: auto;
+    background-color: grey;
+}
+
+.product-divider {
+    width: 100%;
+    margin-bottom: 9px;
+    margin-top: 21px;
+}
+
+.product-title {
+    color: #464542;
+    font-size: 23px;
+    font-weight: 400; 
+    line-height: 33.6px;
+    margin-bottom: 3px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    font-family: "Libre Baskerville", serif; 
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #6d6b67;
+}
+
+/* Products-link */
+.products-link {
+    display: inline-block;
+    background-color: #1f1f1f;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 32px;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.products-link:hover {
+    background-color: #333;
+}
+
+/* 1-qism tugadi */
+
+.section-container { 
+    margin-top: 42px;
+    background-color: rgba(247, 246, 243, 1);
+    padding: 56px;
+    padding-bottom: 132px;
+}
+
+.clients {
+    border-top: 1px solid #6d6b67;
+    border-bottom: 1px solid #6d6b67;
+    padding: 40px 0;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    line-height: 49.4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+.page-title-inner {
+    font-family: "Libre Baskerville", serif;
+    padding-left: 8px;
+}
+
+.section-wrapper {
+    width: 1120px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.client-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 130px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.client-1 {
+    width: 128px;
+    height: 38px;
+}
+
+.client-2 {
+    width: 131px;
+    height: 37px;
+}
+
+.client-3 {
+    width: 133px;
+    height: 34px;
+}
+
+.client-4 {
+    width: 153px;
+    height: 33px;
+}
+
+.client-5 {
+    width: 117px;
+    height: 28px;
+}
+
+.client-6 {
+    width: 134px;
+    height: 42px;
+}
+
+.client-7 {
+    width: 125px;
+    height: 37px;
+}
+
+.client-8 {
+    width: 131px;
+    height: 38px;
+}
+
+.cta-section {
+    background-color: #E0F391;
+    text-align: left;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+.cta-section hr {
+    border: none;
+    border-top: 1px solid #6d6b67;
+    margin: 0;
+    margin-bottom: 23px;
+}
+
+.cta-section h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.cta-section-title-inner {
+    font-family: "Libre Baskerville", serif;
+}
+
+.site-footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 80px;
+}
+
+.logo {
+    width: 244px;
+    height: 48px;
+    margin-bottom: 63px;
+}
+
+.tagline {
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    line-height: 33.6px;
+    font-weight: 400;
+    margin-bottom: 52px;
+}
+
+.site-footer hr {
+    border: none;
+    border-top: 1px solid #6d6b67;
+    width: 400px;
+    margin-bottom: 94px;
+}
+
+.copyright {
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.copyright-inner {
+    font-family: "Inter", sans-serif;
+}
